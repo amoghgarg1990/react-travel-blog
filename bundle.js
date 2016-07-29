@@ -34,7 +34,7 @@
 /******/ 	__webpack_require__.c = installedModules;
 
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/home/amogh/react-travel-blog/";
+/******/ 	__webpack_require__.p = "/react-travel-blog/";
 
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(0);
@@ -85,7 +85,7 @@
 	  { history: _reactRouter.browserHistory },
 	  React.createElement(
 	    _reactRouter.Route,
-	    { path: 'home/amogh/react-travel-blog/index.html', component: _app2.default },
+	    { path: '/react-travel-blog/', component: _app2.default },
 	    React.createElement(_reactRouter.IndexRoute, { component: _home2.default })
 	  )
 	);
