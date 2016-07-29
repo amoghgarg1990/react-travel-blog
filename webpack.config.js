@@ -6,14 +6,13 @@ module.exports = {
     historyApiFallback: true
   },
   entry: [
-    'webpack-dev-server/client?http://' + ip.address() + ':8090',
     './index.html',
     './index.jsx'
   ],
   output: {
     path: __dirname,
     filename: "bundle.js",
-    publicPath: "/"
+    publicPath: "/react-travel-blog/"
   },
   module: {
     loaders: [
